@@ -106,7 +106,7 @@ if __name__ == '__main__':
 
             addr_df.show()
 
-            addr_df.select(col('consumer_id'),
+            addr_df = addr_df.select(col('consumer_id'),
                            col("address.street").alias("street"),
                            col("address.city").alias("city"),
                            col("address.state").alias("state"),
