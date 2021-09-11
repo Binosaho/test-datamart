@@ -19,7 +19,7 @@ OL:
       filename: receipts_delta_GBR_14_10_2017.csv
 CP:
   s3_conf:
-    s3_bucket: mohsinali
+    s3_bucket: binod-505
     cust_dir: data
     filename: KC_Extract_1_20171009.csv
 
@@ -29,7 +29,7 @@ ADDR:
     collection: address
 
 s3_conf:
-  s3_bucket: mohsinali
+  s3_bucket: binod-505
   staging_dir: staging
 
 REGIS_DIM:
